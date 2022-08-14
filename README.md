@@ -64,10 +64,7 @@ cada coluna), uma posição por linha.
 Crie um programa que armazene 10 números digitados pelo usuário em dois vetores:
 um somente para números pares, e outro somente para números ímpares. Após, exiba os valores dos dois vetores na tela, em sequência. Obs.: As posições que não receberem valores exibirão o número zero. Não se preocupe
 com isso por enquanto
-## Exercício 101
-Modifique o programa anterior, de modo a não exibir na saída os números
-zero que são mostrados para todas as posições que não receberam nenhum valor
-durante a atribuição (e portanto estão vazias).
+
 ## Autores
 
 - [@babimingatos](https://www.github.com/babimingatos)
