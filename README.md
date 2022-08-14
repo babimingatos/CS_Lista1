@@ -28,7 +28,7 @@ Fazer um programa para ler uma quantidade N de alunos. Ler a nota de cada um dos
 alunos e calcular a média aritmética das notas. Contar quantos alunos estão com a nota
 acima de 7.0. Obs.: Se nenhum aluno tirou nota acima de 5.0, imprimir mensagem:
 Não há nenhum aluno com nota acima de 5.
-29
+
 ## Exercício 93
 Fazer um programa ler um vetor de inteiros e positivos e imprimir quantas vezes
 aparece o número 1, 3 e 4, nesta ordem. O vetor terá no máximo 100 posições. Sair do
