@@ -65,3 +65,5 @@ Crie um programa que armazene 10 números digitados pelo usuário em dois vetore
 um somente para números pares, e outro somente para números ímpares. Após, exiba os valores dos dois vetores na tela, em sequência. Obs.: As posições que não receberem valores exibirão o número zero. Não se preocupe
 com isso por enquanto
 
+## Exercício 108
+Ler uma frase e contar quantos caracteres são espaços em brancos. Lembre-se queuma frase é um conjunto de caracteres (vetor).
