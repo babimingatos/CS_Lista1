@@ -1,6 +1,6 @@
 
 # Lista 10- VETORES
-As questões abaixo foram trazidas pelo professor de Algoritmos. Todos utilizam VETORES.
+As questões abaixo foram trazidas pelo professor de Algoritmos. 
 
 ## Exercício 88
 Escreva uma aplicação no qual o usuário deverá informar 10 números inteiro e maiores
