@@ -1,7 +1,5 @@
 static void Main(string[] args)
         {
-
-
             int[] tam = new int[5];
             int[] par = new int[tam.Length];
             int[] impar = new int[tam.Length];
