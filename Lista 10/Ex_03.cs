@@ -1,19 +1,49 @@
- static void Main(string[] args)
+static void Main(string[] args)
         {
 
-            Console.WriteLine("Digite a quantidade de números que irá digitar: ");
-            int tam = int.Parse(Console.ReadLine());
+            int[] numx = new int[1];
+            int[] numy = new int[10];
 
-            int[] arr = new int[tam];
+            int maiorX = 0;
+            int menorX = 0;
+            int igualX = 0;
 
-            for(int i = 0; i < arr.Length; i++)
+            Console.WriteLine("Digite 1 número maior que 0 e positivo: ");
+            int x = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < numy.Length; i++)
             {
-                Console.WriteLine("Digite um número: ");
-                arr[i] = int.Parse(Console.ReadLine());
+                Console.WriteLine("Digite 10 números maiores que 0 e positivos: ");
+                int y = int.Parse(Console.ReadLine());
+
+                if (y > 0)
+                {
+                    numy[i] = y;
+                }
+                else
+                {
+                    do
+                    {
+                        Console.WriteLine("PRECISA SER MAIOR QUE ZERO E POSITIVO");
+                        y = int.Parse(Console.ReadLine());
+                        numy[i] = y;
+                    } while (y <= 0);
+                }
+
+                if (numy[i] > x)
+                {
+                    maiorX++;
+                }else if (x > numy[i])
+                {
+                    menorX++;
+                }else if (x == numy[i])
+                {
+                    igualX++;
+                }
             }
-            for(int i = arr.Length - 1; i>=0 ; i--)
-        
-            {
-                Console.Write("\n"+arr[i]+" \n");
-            }
+
+            Console.WriteLine($"Maiores que {x}: {maiorX}\n" +
+                $"Menor que {x}: {menorX}\n" +
+                $"Iguais a  {x}: {igualX}");
+
         }
