@@ -18,15 +18,15 @@ Atenção: os números dever ser maiores que zero.
 04) Ler um número qualquer positivo e maior que zero.
 Se o valor do número elevado à quarta for par e múltiplo de cinco o algoritmo 
 deverá imprimir a seguinte mensagem:
-o “O número digitado foi __.”
-o “Seu valor elevado ao quadrado é __.”
-o “Seu valor elevado ao cubo é __.”
-o “Seu valor elevado a sétima é __.”
-Se o valor for ímpar o algoritmo deverá imprimir a seguinte mensagem:
-o “O número digitado foi __.”
-o “Sua raiz quadrada é __.”
-o “Sua raiz cúbica é __.”
-o “Sua raiz a sétima é __.”
+o “O número digitado foi __.”</br>
+o “Seu valor elevado ao quadrado é __.”</br>
+o “Seu valor elevado ao cubo é __.”</br>
+o “Seu valor elevado a sétima é __.”</br>
+Se o valor for ímpar o algoritmo deverá imprimir a seguinte mensagem:</br>
+o “O número digitado foi __.”</br>
+o “Sua raiz quadrada é __.”</br>
+o “Sua raiz cúbica é __.”</br>
+o “Sua raiz a sétima é __.”</br>
 Observação: Se o usuário digitar um valor inválido o algoritmo deverá emitir uma 
 mensagem de erro.
 
